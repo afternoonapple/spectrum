@@ -1,4 +1,4 @@
-#story-aesthetics {
+.story-aesthetics {
 	background-color: #202020;
 	position: static;
 	margin-left: 20%;
@@ -8,7 +8,7 @@
 	z-index: 0;
 }
 
-#story-dark {
+.story-dark {
 	font-size: 1.1em;
 	background-color: #181818;
 	position: static;
@@ -24,22 +24,39 @@
 	user-select: none;
 }
 
-#banner {
+@media only screen and (max-width: 768px) {
+  /* for mobile phones: */
+  [class*="story-"] {
+    margin-left: 5%;
+	margin-right: 5%;
+  }
+}
+
+.banner {
 	background-color: #222222;
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	right: 0px;
-	margin-left: 0%;
-	margin-right: 0%;
-	margin-top: 0%;
-	margin-bottom: 0%;
+	width: 100%;
 	border: 5px dashed #333333;
 	border-right: 0px;
 	border-left: 0px;
-	padding: 10px;
+	padding-left: 10px;
+	line-height: 0.1;
+}
+
+.banner-title {
+	font-size: 1.5em;
 	font-family: Courier New;
 	line-height: 0.1;
+	color: #ffffff;
+}
+
+.banner-subtitle {
+	font-size: 0.75em;
+	font-family: Courier New;
+	line-height: 1;
+	color: #ffffff;
 }
 
 .end-of-chapter {
@@ -61,7 +78,7 @@
 .narrator {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.75;
+	line-height: 1.6;
 	color: #ffffff;
 }
 
@@ -76,118 +93,139 @@
 .kranyon {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #c80000;
 }
 
 .adelphi {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #e66000;
 }
 
 .cassiopeia {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #fe8718;
 }
 
 .atom {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #e8b200;
 }
 
 .nexus {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #ebd21a;
 }
 
 .arwen {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #d5e21a;
 }
 
 .moran {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #abe000;
 }
 
 .galinda {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #13d558;
 }
 
 .samsara {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #08dec1;
 }
 
 .zenith {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #11d4d7;
 }
 
 .nefferin {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #08bae6;
 }
 
 .aurora {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #0273ec;
 }
 
 .onnyx {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #201ad9;
 }
 
 .tenebris {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #5f3ce8;
 }
 
 .candell {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #7f0fd6;
 }
 
 .fenferra {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.2;
+	line-height: 1.1;
 	color: #d4198a;
 }
 
 .times-new-roman {
 	font-family: Times New Roman;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
