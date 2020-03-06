@@ -59,6 +59,36 @@
 	color: #ffffff;
 }
 
+.panel {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+/* unvisited link */
+a:link {
+  color: #87ceeb;
+}
+
+/* visited link */
+a:visited {
+  color: #ce8aeb;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+}
+
+/* selected link */
+a:active {
+  color: #ffffff;
+}
+
+
+
+
 .end-of-chapter {
 	font-size: 1.7em;
 	font-family: Courier New;
@@ -200,6 +230,31 @@
 	font-family: Courier New;
 	line-height: 1.1;
 	color: #d4198a;
+}
+
+.haelfheim {
+	font-size: 1em;
+	font-family: Courier New;
+	line-height: 1.1;
+	color: #9aff96;
+}
+
+.abigaile {
+	font-size: 1em;
+	font-family: Courier New;
+	line-height: 1.1;
+	color: #ff91e2;
+}
+
+.naphtha {
+	font-size: 1em;
+	font-family: Courier New;
+	line-height: 1.1;
+	color: #d400ff;
+}
+
+.psychic {
+	text-shadow: 2px 2px;
 }
 
 .times-new-roman {
