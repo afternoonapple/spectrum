@@ -1,8 +1,8 @@
 .story-aesthetics {
 	background-color: #202020;
 	position: static;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 18%;
+	margin-right: 18%;
 	margin-top: 0%;
 	margin-bottom: 0%;
 	z-index: 0;
@@ -24,11 +24,23 @@
 	user-select: none;
 }
 
+.video {
+    position: static;
+    width: 100%;
+    height: 71.5%;
+}
+
 @media only screen and (max-width: 768px) {
   /* for mobile phones: */
   [class*="story-"] {
-    margin-left: 5%;
-	margin-right: 5%;
+    margin-left: 3%;
+	margin-right: 3%;
+  }
+  
+  .video {
+    position: static;
+    width: 100%;
+    height: 60%;
   }
 }
 
@@ -90,17 +102,17 @@ a:active {
 
 
 .end-of-chapter {
-	font-size: 1.7em;
+	font-size: 1.5em;
 	font-family: Courier New;
-	line-height: 1.5;
+	line-height: 1;
 	color: #ffffff;
 	text-align: center;
 }
 
 .chapter-heading {
-	font-size: 1.7em;
+	font-size: 1.5em;
 	font-family: Courier New;
-	line-height: 1.5;
+	line-height: 1;
 	color: #ffffff;
 	text-align: center;
 }
@@ -108,7 +120,7 @@ a:active {
 .narrator {
 	font-size: 1em;
 	font-family: Courier New;
-	line-height: 1.6;
+	line-height: 1.4;
 	color: #ffffff;
 }
 
@@ -251,6 +263,13 @@ a:active {
 	font-family: Courier New;
 	line-height: 1.1;
 	color: #d400ff;
+}
+
+.drbrown {
+	font-size: 1em;
+	font-family: Courier New;
+	line-height: 1.1;
+	color: #8d5e2f;
 }
 
 .psychic {
