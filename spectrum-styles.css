@@ -27,7 +27,7 @@
 	margin-top: 0%;
 	margin-bottom: 0%;
 	z-index: 0;
-	padding: 25px;
+	padding: 15px;
 	-webkit-user-select: none;
 	-moz-user-select: none;     
 	-ms-user-select: none;
@@ -43,7 +43,7 @@
 	margin-top: 0%;
 	margin-bottom: 0%;
 	z-index: 0;
-	padding: 25px;
+	padding: 15px;
 	-webkit-user-select: none;
 	-moz-user-select: none;     
 	-ms-user-select: none;
@@ -71,6 +71,7 @@
 }
 
 .banner-title {
+	margin-top: 1em;
 	font-size: 1.5em;
 	font-family: Courier New;
 	line-height: 0.1;
@@ -78,6 +79,7 @@
 }
 
 .banner-subtitle {
+	margin-top: 0em;
 	font-size: 0.75em;
 	font-family: Courier New;
 	line-height: 1;
@@ -110,9 +112,6 @@ a:hover {
 a:active {
   color: #ffffff;
 }
-
-
-
 
 .end-of-chapter {
 	font-size: 1.5em;
@@ -295,6 +294,10 @@ a:active {
 
 .light {
 	color: #000000;
+}
+
+.small {
+	font-size: 0.66em;
 }
 
 .ancestor {
