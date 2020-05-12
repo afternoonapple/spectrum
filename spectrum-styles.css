@@ -301,7 +301,7 @@ a:active {
 }
 
 .ancestor {
-	filter: brightness(75%) saturate(175%);
+	filter: brightness(75%) saturate(166%);
 	z-index: -1;
 }
 
@@ -336,11 +336,11 @@ a:active {
 
 @keyframes media-glitch {
 	70% { transform: skewX(0deg); } 
-	80% { transform: skewX(-0.5deg); }
-	82% { transform: skewX(0.5deg); }
+	80% { transform: skewX(-0.25deg); }
+	82% { transform: skewX(0.25deg); }
 	84% { transform: skewX(0deg); }
-	94% { transform: skewX(-0.5deg); }
-	96% { transform: skewX(0.5deg); }
+	94% { transform: skewX(-0.25deg); }
+	96% { transform: skewX(0.25deg); }
 	98% { transform: skewX(0deg); }
 	100% { transform: skewX(0deg); }  
 }
@@ -371,11 +371,11 @@ a:active {
   
   @keyframes media-glitch {
 	70% { transform: skewX(0deg); } 
-	80% { transform: skewX(-1deg); }
-	82% { transform: skewX(1deg); }
+	80% { transform: skewX(-0.5deg); }
+	82% { transform: skewX(0.5deg); }
 	84% { transform: skewX(0deg); }
-	94% { transform: skewX(-1deg); }
-	96% { transform: skewX(1deg); }
+	94% { transform: skewX(-0.5deg); }
+	96% { transform: skewX(0.5deg); }
 	98% { transform: skewX(0deg); }
 	100% { transform: skewX(0deg); }  
   }
