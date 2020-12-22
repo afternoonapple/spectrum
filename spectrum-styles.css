@@ -33,7 +33,7 @@
 	margin-top: 0%;
 	margin-bottom: 0%;
 	z-index: 0;
-	padding: 15px;
+	padding: 10px;
 	-webkit-user-select: none;
 	-moz-user-select: none;     
 	-ms-user-select: none;
@@ -42,14 +42,14 @@
 
 .story-light {
 	font-size: 1.1em;
-	background-color: #e7e7e7;
+	background-color: #eeeeee;
 	position: static;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 0%;
 	margin-bottom: 0%;
 	z-index: 0;
-	padding: 15px;
+	padding: 10px;
 	-webkit-user-select: none;
 	-moz-user-select: none;     
 	-ms-user-select: none;
@@ -349,7 +349,7 @@ a:active {
 	100% { transform: skewX(0deg); }  
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 720px) {
   /* for mobile phones: */
   [class*="story-"] {
     margin-left: 3%;
