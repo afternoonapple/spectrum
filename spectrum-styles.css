@@ -99,22 +99,23 @@
 
 /* unvisited link */
 a:link {
-  color: #649bb4;
+  color: lightsteelblue;
 }
 
 /* visited link */
 a:visited {
-  color: #b464aa;
+  color: lightpink;
 }
 
 /* mouse over link */
 a:hover {
-  color: #ffffff;
+  color: lightgrey;
 }
 
 /* selected link */
 a:active {
-  color: #ffffff;
+  color: black;
+  background-color: whitesmoke;
 }
 
 .button {
@@ -155,10 +156,11 @@ a:active {
 
 .announcement {
 	font-size: 1em;
-	font-family: Times New Roman;
+	font-family: 'Times New Roman', Times, serif;
 	line-height: 1.5;
 	color: #ffffff;
 	text-align: center;
+	text-shadow: 1px 1px;
 }
 
 .log-text {
@@ -193,7 +195,7 @@ a:active {
 	font-size: 1em;
 	
 	line-height: 1;
-	color: #ffb419;
+	color: #ffa419;
 }
 
 .nexus {
@@ -221,7 +223,7 @@ a:active {
 	font-size: 1em;
 	
 	line-height: 1;
-	color: #19ff40;
+	color: #19ff79;
 }
 
 .samsara {
@@ -280,7 +282,7 @@ a:active {
 	color: #ff19a0;
 }
 
-.haelfheim {
+.halfheim {
 	font-size: 1em;
 	
 	line-height: 1;
@@ -299,6 +301,13 @@ a:active {
 	
 	line-height: 1;
 	color: #bf19ff;
+}
+
+.susbot {
+	font-size: 1em;
+	
+	line-height: 1;
+	color: rgb(192, 192, 192);
 }
 
 .drbrown {
